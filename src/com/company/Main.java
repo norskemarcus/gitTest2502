@@ -7,6 +7,7 @@ public class Main {
 
     public void greet(){
         System.out.println("Velkommen");
+        System.out.println("Test 1");
         System.out.println("Tast ind dit navn: ");
         String navnBruger=  input.nextLine();
         System.out.println("Hej " + navnBruger);
