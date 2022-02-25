@@ -6,7 +6,7 @@ public class Main {
     Scanner input = new Scanner(System.in);
 
     public void greet(){
-
+        System.out.println("Velkommen");
         System.out.println("Tast ind dit navn: ");
         String navnBruger=  input.nextLine();
         System.out.println("Hej " + navnBruger);
