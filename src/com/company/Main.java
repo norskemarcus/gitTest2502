@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Hej " + navnBruger);
     }
 
-    public void spørOmNavn(){
+    public void askAboutAge(){
         System.out.println("Hvor gammel er du? ");
         int alderBruger = input.nextInt();
         System.out.println(alderBruger);
@@ -24,6 +24,6 @@ public class Main {
 
         Main obj = new Main();
         obj.greet();
-        obj.spørOmNavn();
+        obj.askAboutAge();
     }
 }
